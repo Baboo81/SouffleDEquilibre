@@ -1,1 +1,1 @@
-#Apporter une touche graphique
+#Ajouter Souffle d'équilibre sur la homePage
