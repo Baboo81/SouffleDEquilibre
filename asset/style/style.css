@@ -96,6 +96,11 @@ i
 
 /* mainContent Section */
 
+.mainContent
+{
+    height: 1400px;
+}
+
 .mainContentTitle
 {
     color: var(--Blue);
