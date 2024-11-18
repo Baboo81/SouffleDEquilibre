@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
 :root
 {
     --Blue : #464E9F;
@@ -5,4 +8,48 @@
     --Grey : #D1D3E4;
     --Pink : #F2E6E9;
     --White : #FEF8F2;
+}
+
+body
+{
+    font-family: "Bodoni Moda", serif;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+/* Header */
+
+header
+{
+    width: 100%;
+    z-index: 99;
+}
+
+/* Home section */
+
+.home
+{
+    height: 1200px;
+    background-image: url(../img/images/pexels-inspiredimages-3215616.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home .homeContent
+{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    font-size: 2em;
+    color: var(--White);
+    line-height: 1.5em;
 }
