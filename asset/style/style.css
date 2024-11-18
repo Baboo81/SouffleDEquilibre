@@ -53,3 +53,36 @@ header
     color: var(--White);
     line-height: 1.5em;
 }
+
+.home .homeTitlesSection
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: var(--White);
+    line-height: 4em;
+}
+
+.home .homeTitlesSection .homeTitle2
+{
+    position: absolute;
+    left: 40%;
+}
+
+span
+{
+    font-size: 8em;
+}
+
+i
+{
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+.home .homeTitleD
+{
+    font-size: 2.5em;
+}
+
+/* END Home Section */
