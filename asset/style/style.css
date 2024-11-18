@@ -120,3 +120,31 @@ h5
     position: absolute;
     top: 0;
 }
+
+/* END mainContent section */
+
+/* Footer */
+
+footer
+{
+    height: 400px;
+    background-color: var(--White);
+}
+
+h4
+{
+    color: var(--Blue);
+    font-size: 1.5rem;
+}
+
+.txtFooter
+{
+    color: var(--Blue);
+    font-size: 1rem;
+}
+
+#mapid
+{
+    height: 200px;
+    border-radius: 10px;
+}
