@@ -102,13 +102,13 @@ i
     font-size: 4rem;
 }
 
-.mainContent .card-title
+h5
 {
     color: var(--Blue);
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
-.mainContent .card-text
+.txtBlob
 {
     color: var(--Blue);
     font-size: 1.2rem;
