@@ -76,7 +76,7 @@ header
     left: 40%;
 }
 
-span
+.bigLetter
 {
     font-size: 8em;
 }
@@ -93,3 +93,30 @@ i
 }
 
 /* END Home Section */
+
+/* mainContent Section */
+
+.mainContentTitle
+{
+    color: var(--Blue);
+    font-size: 4rem;
+}
+
+.mainContent .card-title
+{
+    color: var(--Blue);
+    font-size: 1.7rem;
+}
+
+.mainContent .card-text
+{
+    color: var(--Blue);
+    font-size: 1.2rem;
+}
+
+.mainContent .blob1
+{
+    background: url(../img/svg/Blob1.svg) center center no-repeat;
+    position: absolute;
+    top: 0;
+}
