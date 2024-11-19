@@ -40,6 +40,12 @@ header
     font-size: 1.5em;
 }
 
+.logo
+{
+    height: 5rem;
+    width: 5rem;
+}
+
 /* Home section */
 
 .home
