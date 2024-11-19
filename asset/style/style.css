@@ -13,6 +13,7 @@
 body
 {
     font-family: "Bodoni Moda", serif;
+    overflow-x: hidden;
 }
 
 .blueFont
@@ -33,6 +34,11 @@ header
     padding: 30px;
     color: var(--White);
     font-size: 1.5em;
+}
+
+.nav-link:hover
+{
+    color: var(--Blue);
 }
 
 .logo
@@ -176,7 +182,7 @@ h5
 
 footer
 {
-    height: 400px;
+    height: 450px;
     background-color: var(--White);
 }
 
@@ -196,4 +202,10 @@ h4
 {
     height: 200px;
     border-radius: 10px;
+}
+
+.picto
+{
+    height: 5rem;
+    width: 5rem;
 }
