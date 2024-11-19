@@ -15,14 +15,9 @@ body
     font-family: "Bodoni Moda", serif;
 }
 
-.overlay
+.blueFont
 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .3);
+    color: var(--Blue);
 }
 
 /* Header */
@@ -44,6 +39,23 @@ header
 {
     height: 5rem;
     width: 5rem;
+}
+
+.sticky
+{
+    background-color: #000;
+    opacity: 50%;
+}
+/* END Header */
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
 }
 
 /* Home section */
