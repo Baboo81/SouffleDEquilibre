@@ -110,7 +110,7 @@ i
 h5
 {
     color: var(--Blue);
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .txtBlob
@@ -119,11 +119,23 @@ h5
     font-size: 1.2rem;
 }
 
-.mainContent .blob1
+.mainContent .blob1Content
 {
     background: url(../img/svg/Blob1.svg) center center no-repeat;
+    position: relative;
+    height: 550px;
+}
+
+.mainContent .blob2Content
+{
+    background: url(../img/svg/Blob2.svg) center center no-repeat;
+}
+
+.txtContentBlob1
+{
     position: absolute;
-    top: 0;
+    top: 26%;
+    right: 5%;
 }
 
 /* END mainContent section */
