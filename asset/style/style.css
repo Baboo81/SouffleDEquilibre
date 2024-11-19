@@ -98,7 +98,7 @@ i
 
 .mainContent
 {
-    height: 1400px;
+    height: 1800px;
 }
 
 .mainContentTitle
@@ -129,6 +129,8 @@ h5
 .mainContent .blob2Content
 {
     background: url(../img/svg/Blob2.svg) center center no-repeat;
+    position: relative;
+    height: 680px;
 }
 
 .txtContentBlob1
@@ -136,6 +138,18 @@ h5
     position: absolute;
     top: 26%;
     right: 5%;
+}
+
+.txtContentBlob2
+{
+    position: absolute;
+    top: 20%;
+    right: 18%;
+}
+
+.plumeContent
+{
+    height: 550px;
 }
 
 /* END mainContent section */
