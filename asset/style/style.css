@@ -42,6 +42,17 @@ header
     font-size: 1.5em;
 }
 
+.navbar-toggler
+{
+    border: 1px solid var(--White);
+}
+
+.navbar-toggler:hover
+{
+    border-color: var(--Blue);
+    border : 1px solid var(--Blue);
+}
+
 .nav-link:hover
 {
     color: var(--Blue);
@@ -393,7 +404,20 @@ h4
     {
         height: 1200px;
     }
-} 
+}
+
+@media only screen and (min-width : 0px) and (max-width : 499px)
+{
+    .mainContent
+    {
+        height: 3000px;
+    }
+
+    footer
+    {
+        height: 1200px;
+    }
+}
 
 /*  END Global  */
 
