@@ -216,6 +216,8 @@ h4
 }
 
 /*Media Queries*/
+
+/*  Global  */
 @media only screen and (min-width : 1100px) and (max-width : 1416px)
 {
     .homeContent
@@ -273,16 +275,136 @@ h4
         height: 100%;
         margin-left: 55%;
     }
-   
 }
 
+@media only screen and (min-width :800px) and (max-width : 1100px)
+{
+    .txtContentBlob1
+    {
+        position: absolute;
+        top: 28%;
+        right: 24%;
+    }
+
+    .txtContentBlob2
+    {
+        position: absolute;
+        top: 20%;
+        right: 30%;
+    }
+
+    .mainContent .blob1Content
+    {
+        width: 100%;
+        height: 100%;
+        background: url(../img/svg/Blob1.svg) center center no-repeat;
+        position: relative;
+        height: 550px;
+    }
+
+    .mainContent .blob2Content
+    {
+        width: 100%;
+        height: 100%;
+        background: url(../img/svg/Blob2.svg) center center no-repeat;
+        position: relative;
+        height: 680px;
+    }
+
+    .mainContent
+    {
+        height: 2500px;
+    }
+
+    .lotusContent
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 55%;
+    }
+
+    .plumeContent
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 55%;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 800px)
+{
+    .mainContentTitle
+    {
+        font-size: 3rem;
+    }
+
+    .txtContentBlob1
+    {
+        position: absolute;
+        top: 28%;
+        right: 24%;
+    }
+
+    .txtContentBlob2
+    {
+        position: absolute;
+        top: 23%;
+        right: 23%;
+    }
+
+    .mainContent .blob1Content
+    {
+        width: 100%;
+        height: 100%;
+        background: url(../img/svg/Blob1.svg) center center no-repeat;
+        position: relative;
+        height: 600px;
+    }
+
+    .mainContent .blob2Content
+    {
+        width: 100%;
+        height: 100%;
+        background: url(../img/svg/Blob2.svg) center center no-repeat;
+        position: relative;
+        height: 680px;
+    }
+
+    .mainContent
+    {
+        height: 2500px;
+    }
+
+    .lotusContent
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .plumeContent
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    footer
+    {
+        height: 1200px;
+    }
+} 
+
+/*  END Global  */
+
+
+/*  Home  */
 @media only screen and (min-width : 950px) and (max-width : 1099px)
 {
     .homeContent
     {
        margin-top: 35%;
     }
-  
 }
 
 @media only screen and (min-width : 850px) and (max-width : 950px)
@@ -291,7 +413,6 @@ h4
     {
        margin-top: 55%;
     }
-  
 }
 
 @media only screen and (min-width : 750px) and (max-width : 850px)
@@ -300,7 +421,6 @@ h4
     {
        margin-top: 65%;
     }
-  
 }
 
 @media only screen and (min-width : 550px) and (max-width : 750px)
@@ -310,7 +430,6 @@ h4
        margin-top: 75%;
        margin-right: -10%;
     }
-  
 }
 
 @media only screen and (min-width : 500px) and (max-width : 550px)
@@ -320,7 +439,6 @@ h4
        margin-top: 75%;
        margin-right: -10%;
     }
-  
 }
 
 @media only screen and (min-width : 0px) and (max-width : 500px)
@@ -330,5 +448,5 @@ h4
        margin-top: 75%;
        margin-right: -10%;
     }
-  
 }
+/*  END  Home  */
